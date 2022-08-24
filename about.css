@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+     --green:#da8208; 
+    /* --green:#724060; */
+    --dark-color:#112a1b;
+    --black:#444;
+    --light-color:#666;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* transition:all .2s linear;
+    transition:width none; */
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--black);
+}
+
+
+
+.header .header-1{
+    background-color: white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 1.5rem 9%;
+}
+.header .header-1 .logo{
+    font-size: 2.5rem;
+    color:var(--black);
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+.header .header-1 .logo i{
+    color: var(--green);
+}
+.header .header-1 .search-form{
+    width: 50rem;
+    height: 5rem;
+    padding-left: 20px;
+    border: var(--border);
+    overflow: hidden;
+    border-radius: .5rem;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+.header .header-1 .search-form input{
+padding:0 1.2rem;
+height: 100%;
+width: 100%;
+font-size: 1.6rem;
+text-transform: none;
+}
+.header .header-1 .search-form label{
+    font-size: 1.9rem;
+    color: var(--black);
+    padding-right: 1rem;
+
+}
+.header .header-1 .search-form label:hover{
+    color: var(--green);
+}
+.header .header-1  .icons div,
+.header .header-1  .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+}
+.header .header-1  .icons div:hover,
+.header .header-1  .icons a:hover{
+color: var(--green);
+}
+/* .header .header-2{
+    background-color: var(--green);
+} */
+.navbar{
+    
+        
+       
+    background-color:var(--green);}
+    /* text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+.navbar li a{
+    
+    justify-content: center;
+}
+.navbar li :hover{
+    
+    background-color:var(--dark-color);
+
+
+}
+/* .header-2 .nav .navbar-nav {
+    padding-left: 70px;
+
+} */
+.navbar li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.main{
+    height: 60rem;
+}
+
+.box{
+    /* background-color: rgb(182, 236, 182); */
+    /* background-color: rgba(195, 204, 62, 0.729); */
+    height: 50rem;
+   /* background-color:#a9ad30; */
+   background-color: #020201d7;
+  
+
+}
+.box .content{
+    text-align: center;
+    padding-top: 40px;
+    color:white;
+    /* #a9ad30 */
+}
+.box .content h1{
+    font-size: 40px;
+}
+.box .content .image .img{
+    width: 60rem;
+    height: 40rem;
+    margin-top: 15px;
+    border: solid 10px var(--green);
+border-radius: 5px;
+}
+.second-s{
+    margin-top: 20px;
+}
+.second-s .content {
+    text-align: center;
+}
+.second-s .content h1{
+    font-size: 35px;
+    color: var(--black);
+}
+.row .card{
+    margin-top: 30px;
+    border: none;
+
+    
+
+}
+.info{
+    /* background-color: #484a01; */
+    background-color: rgba(158, 89, 5, 0.922);
+   
+    margin-top: 30px;
+    color: white;
+
+
+
+    /* #898d03 */
+}
+.info .heading {
+    padding-top: 90px;
+    color: white;
+    text-align: center;
+    
+}
+.info  .row{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.info  .row p{
+    font-size: 12.5px;
+}
+.info .heading hr{
+    width: 70%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    color:  white;
+    
+
+}
+.ready{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    text-align: center;
+
+}
+.ready .image{
+    flex: 1 1 42rem;
+    
+
+}
+.ready .content{
+    flex: 1 1 42rem ;
+    
+}
+.ready .image img{
+    width: 80%;
+}
+.footer{
+    background-color: #020201d7;
+}
+.footer .row a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
