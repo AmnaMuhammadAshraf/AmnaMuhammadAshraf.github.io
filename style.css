@@ -118,7 +118,7 @@ color: var(--green);
 }
 .navbar li :hover{
     
-    background-color:var(--dark-color);
+    background-color:var(--green);
 
 
 }
